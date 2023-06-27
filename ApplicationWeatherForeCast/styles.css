@@ -1,0 +1,53 @@
+
+
+#preloader{
+    background: #fff url(Spinningarrow.gif) no-repeat center center;
+    height:100vh;
+    width: 100%;
+    position: fixed;
+    z-index:100;
+}
+
+#icon{
+    width:2%;
+    margin-left:96%;
+    cursor:pointer;
+    margin-top: 1%;
+}
+
+:root{
+    --primary-color:#fff;
+    --secondary-color:#212121;
+}
+
+.dark-theme{
+    --primary-color:#2c2c31;
+    --secondary-color:#fff;
+}
+
+#bodyId{
+    background-color: var(--primary-color);
+}
+
+#WeatherId{
+  color:var(--secondary-color);  
+}
+
+#about{
+    color:var(--secondary-color);
+}
+
+#description{
+    color:var(--secondary-color);
+}
+
+#footer-2{
+    color:var(--secondary-color);
+}
+
+#divider-1{
+    color: var(--secondary-color);
+}
+#divider-2{
+    color:var(--secondary-color);
+}
